@@ -15,3 +15,6 @@ where
 For example, a GET request at ```https://app.recruiterbox.com/api/mycompany/published_openings``` will give you a list of all publicly published openings at a client name "mycompany", while a GET request at ```https://app.recruiterbox.com/api/mycompany/published_opening/12534``` gives you data on the first opening only.
 
 The default return type is json, and you can request an XML response by adding a ```?format=xml``` GET paramater at the end of the above urls.
+
+
+You can see some sample code that parses the response of the above API here: https://gist.github.com/Aplopio/2156509
